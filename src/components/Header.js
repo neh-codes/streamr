@@ -13,8 +13,8 @@ const Header = () => {
 
   return (
     
-    <div className='sticky top-0 bg-white'>
-    <div className='grid grid-flow-col p-4 shadow-lg'>
+    <div className='sticky top-0 bg-white shadow-md'>
+    <div className='grid grid-flow-col p-4'>
         <div className='flex col-span-2'>
             <img 
             onClick={() => toggleMenuHandler()}            
