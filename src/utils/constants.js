@@ -1,6 +1,8 @@
 
-const GOOGLE_API_KEY = "AIzaSyC_9Pnq0T-NP6TnqUK0wsMpSvJhXaQnr6c";
+const GOOGLE_API_KEY = "AIzaSyAvCDgHs0iFIScYL6Y1taLRLgMTG_brivs";
 
 export const YOUTUBE_VIDEOS_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" + GOOGLE_API_KEY;
 
+export const YOUTUBE_SEARCH_API = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
+export const OFFSET_LIVE_CHAT = 10;

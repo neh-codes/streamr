@@ -9,10 +9,10 @@ const Sidebar = () => {
 
 
   return (
-    <div className='w-[12%] pb-5 px-5 shadow-lg'>
-        <div className='fixed w-[11%] h-screen overflow-y-scroll'>
-        <ul className='pt-5'>
-           <li><Link to= "/">Home </Link></li>
+    <div className='w-1/6 pb-5 px-5 shadow-lg'>
+        <div className='fixed w-[15%] h-screen overflow-y-scroll'>
+        <ul className='pt-5 '>
+           <li className='hover:bg-slate-100'><Link to= "/">Home </Link></li>
             <li>Shorts</li>
             <li>Videos</li>
             <li>Live</li>

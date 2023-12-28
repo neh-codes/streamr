@@ -1,7 +1,7 @@
 @tailwind base;
 :root {
   --primary: #fff;
-  --secondary: #CD201F;
+  --secondary: #606060;
 }
 * {
   scrollbar-width: thin;
